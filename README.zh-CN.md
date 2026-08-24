@@ -6,14 +6,14 @@
 ## 快速接入
 
 ```bash
-npm install github:flyfish-dev/wps-viewer-integration#v0.1.1
+npm install github:flyfish-dev/wps-viewer-integration#v0.2.0
 ```
 
-GitHub v0.1.1 Release 同时提供相同的 npm 包产物，不依赖 npm Registry 也可以完成接入。
+GitHub v0.2.0 Release 同时提供相同的 npm 包产物，不依赖 npm Registry 也可以完成接入。
 
 ```html
 <flyfish-wps-viewer
-  viewer-url="https://office.example.com/wps-viewer/viewer"
+  viewer-url="https://office.example.com/wps-viewer/demo"
   src="https://office.example.com/api/files/42/download"
   name="季度报表.et"
 ></flyfish-wps-viewer>
@@ -26,7 +26,7 @@ GitHub v0.1.1 Release 同时提供相同的 npm 包产物，不依赖 npm Regist
 ## 开放与商业边界
 
 本仓库采用 MIT License，开放宿主组件、稳定参数、类型和示例；不包含解析器、
-版式引擎、授权校验、签发密钥、私有测试语料或商业运行时。产品首页与可用
-Demo 已统一到 `https://wps.file-viewer.app`，其中 `/viewer` 是无产品内容的
-iframe 嵌入入口。公开部署仅用于本地文件效果评估，生产接入需要在客户同源
-地址部署相同路由并使用有效商业授权。
+版式引擎、授权校验、签发密钥、私有测试语料或商业运行时。产品首页位于
+`https://wps.file-viewer.app`，并通过 iframe 嵌入独立维护的 `/demo` 预览页。
+公开部署仅用于本地文件效果评估，生产接入需要在客户同源地址部署相同
+`/demo` 路由并使用有效商业授权。

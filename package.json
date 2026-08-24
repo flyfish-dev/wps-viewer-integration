@@ -1,6 +1,6 @@
 {
   "name": "@flyfish-dev/wps-viewer-integration",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Open integration SDK and Web Component for a self-hosted Flyfish WPS Viewer runtime.",
   "type": "module",
   "sideEffects": false,
