@@ -9,8 +9,11 @@ and DPS parser and layout engine remain in the commercial core.
 ## Install
 
 ```bash
-npm install @flyfish-dev/wps-viewer-integration
+npm install github:flyfish-dev/wps-viewer-integration#v0.1.0
 ```
+
+The same package tarball is attached to the GitHub v0.1.0 release. Publishing
+under the `@flyfish-dev` npm scope is prepared but is not required for use.
 
 ## Web Component
 

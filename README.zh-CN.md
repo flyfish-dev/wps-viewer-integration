@@ -6,8 +6,10 @@
 ## 快速接入
 
 ```bash
-npm install @flyfish-dev/wps-viewer-integration
+npm install github:flyfish-dev/wps-viewer-integration#v0.1.0
 ```
+
+GitHub v0.1.0 Release 同时提供相同的 npm 包产物，不依赖 npm Registry 也可以完成接入。
 
 ```html
 <flyfish-wps-viewer
