@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flyfish WPS Viewer integration</title>
+    <style>
+      html, body { height: 100%; margin: 0; }
+      flyfish-wps-viewer { height: 100%; }
+    </style>
+  </head>
+  <body>
+    <flyfish-wps-viewer
+      viewer-url="https://office.example.com/wps-viewer/"
+      src="https://office.example.com/api/files/42/download"
+      name="quarterly-report.et"
+      title="Quarterly report preview"
+      loading="eager"
+    ></flyfish-wps-viewer>
+    <script type="module">
+      import { registerFlyfishWpsViewer } from '@flyfish-dev/wps-viewer-integration';
+      registerFlyfishWpsViewer();
+    </script>
+  </body>
+</html>
