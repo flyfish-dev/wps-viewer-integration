@@ -4,7 +4,7 @@ Open integration SDK and Web Component for a **self-hosted, licensed** Flyfish
 WPS Viewer runtime. It keeps application integration small while the WPS, ET,
 and DPS parser and layout engine remain in the commercial core.
 
-[中文说明](README.zh-CN.md) · [Online evaluation](https://wps.file-viewer.app) · [Product](https://product.flyfish.group)
+[中文说明](README.zh-CN.md) · [Online evaluation](https://wps.file-viewer.app) · [Commercial license](https://dev.flyfish.group/shop/detail/1016)
 
 ## Install
 
